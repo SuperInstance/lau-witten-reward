@@ -1,0 +1,15 @@
+[package]
+name = "lau-witten-reward"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-witten-reward"
+description = "Witten deformation on reward landscapes — the fermionic square root the ecosystem was missing, tunneling between reward basins via Morse theory"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+approx = "0.5"
